@@ -1,9 +1,9 @@
-export default function Button({ type, children, onClick }) {
+export default function Button({ type, children, onClick, classNames }) {
   return (
     <button
-      className="text-slate-100 bg-slate-900 border-2 rounded w-full py-2"
+      className={`text-slate-100  border-2 rounded w-full py-2 ${classNames}`}
       type={type ? type : 'button'}
-      onClick={() => onClick()}
+      onClick={(e) => onClick(e)}
     >
       {children}
     </button>
