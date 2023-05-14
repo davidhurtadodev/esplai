@@ -3,11 +3,6 @@ import Button from '@/components/Button';
 import { Inter } from 'next/font/google';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import Dropzone from '@/components/Dropzone';
-// import { useRouter } from 'next/router';
-// import Dropzone from 'react-dropzone';
-
-//application/json
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const { data: session } = useSession();
