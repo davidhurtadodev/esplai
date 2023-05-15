@@ -7,6 +7,7 @@ import Dropzone from '@/components/Dropzone';
 export default function Home() {
   const { data: session } = useSession();
 
+  //Conditional rendering when user is logged in
   if (session) {
     return (
       <Layout>

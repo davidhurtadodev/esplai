@@ -2,7 +2,7 @@ import Button from './Button';
 
 export default function InnerModal({ rejections }) {
   const handleCleanRejections = (e) => {
-    // e.stopPropagation();
+    //Eliminate rejected file
     rejections.pop();
   };
   return (

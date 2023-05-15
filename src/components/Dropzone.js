@@ -2,13 +2,14 @@ import { useDropzone } from 'react-dropzone';
 import InnerModal from './InnerModal';
 import Button from './Button';
 export default function Dropzone() {
+  //Only accept .json
   const { acceptedFiles, fileRejections, getRootProps, getInputProps } =
     useDropzone({
       accept: {
         'application/json': ['.json'],
       },
     });
-  console.log(fileRejections);
+
   return (
     <div className="w-full lg:w-[60%]">
       <section className=" mx-auto mb-10 w-full  shadow-[1px_0px_36px_6px_rgba(86,156,80,1)]">
