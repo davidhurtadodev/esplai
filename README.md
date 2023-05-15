@@ -45,4 +45,4 @@ LinkedIn: https://www.linkedin.com/in/david-hurtado-g
 
 ## Codefactor
 
-[![CodeFactor](https://www.codefactor.io/repository/github/davidhurtadodev/jobarcelona-23/badge)](https://www.codefactor.io/repository/github/davidhurtadodev/jobarcelona-23)
+[![CodeFactor](https://www.codefactor.io/repository/github/davidhurtadodev/esplai/badge)](https://www.codefactor.io/repository/github/davidhurtadodev/esplai)
