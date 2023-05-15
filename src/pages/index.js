@@ -10,9 +10,9 @@ export default function Home() {
   if (session) {
     return (
       <Layout>
-        <div className="flex items-center lg:px-10 px-10 flex-col-reverse lg:flex-row">
+        <div className="flex items-center lg:px-14 px-10 flex-col-reverse lg:flex-row">
           <Dropzone />
-          <div className="text-left w-[30%] m-auto mb-16 ">
+          <div className="text-left w-[30%] mx-auto mb-16 ">
             <div className="text-center">
               <h1 className="text-slate-100 text-3xl mb-2">
                 Bienvenido a DDrop
