@@ -1,4 +1,4 @@
-# My recipes (JOBarcelona '23)
+# DDrop Esplai
 
 ![alt text](./screenshot-drop.png 'DDrop')
 
